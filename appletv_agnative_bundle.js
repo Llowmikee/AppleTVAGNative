@@ -33,7 +33,7 @@
 
     try {
       Lampa.SettingsApi.addParam({
-        component: 'theme',
+        component: 'interface',
         param: {
           name: 'lampac_interface_scene',
           type: 'select',
@@ -49,7 +49,7 @@
 
     try {
       Lampa.SettingsApi.addParam({
-        component: 'theme',
+        component: 'interface',
         param: { name: 'appletv_agnative_enable', type: 'button' },
         field: { name: 'Включить AppleTV AGNative', description: 'Активировать сцену AppleTV AGNative' },
         onChange: function(){ enableScene(true); }
